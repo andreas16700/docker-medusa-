@@ -1,0 +1,22 @@
+# macOS system files
+.DS_Store
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+*.backup
+
+# Terraform .terraform directory (plugins, modules, cache)
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive files (sometimes used for variables/secrets)
+*.tfvars
+
+# Node modules (for any JS code in your backend)
+node_modules/
+backend/node_modules/
+
+# Other editor files (optional)
+*.swp
+*~
